@@ -4,7 +4,6 @@ import {View, Text, ScrollView, FlatList, StyleSheet} from 'react-native';
 const data = [
     {
       id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-      image: 'image1',
       title: 'First',
     },
     {
@@ -14,12 +13,10 @@ const data = [
     },
     {
       id: '58694a0f-3da1-471f-bd96-145571e29d72',
-      image: 'image3',
       title: 'Third',
     },
     {
         id: '58694a0f-3da1-471f-bd96-145571e29d72',
-        image: '',
         title: 'Third',
       },
   ];
@@ -36,7 +33,7 @@ export default function CategoryComponent(){
       );
     return(
         <View>
-            <Text style={styles.title}>Job categorize</Text>
+            <Text style={styles.title}>Recent Job Post</Text>
             <ScrollView>
                 <FlatList style={styles.container}
                     horizontal 
@@ -56,10 +53,9 @@ const styles = StyleSheet.create({
     },
     item: {
       backgroundColor: '#c0c0c0',
-      padding: 8,
+      padding: 100,
       borderRadius: 5,
       marginHorizontal: 8,
-      width: 100,
     },
     itemName: {
 

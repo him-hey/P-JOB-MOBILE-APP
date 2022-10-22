@@ -1,8 +1,8 @@
-import RegisterScreen from './src/screens/registrationView'
+import Home from './src/screens/homeView'
 
 
 export default function App() {
   return (
-      <RegisterScreen></RegisterScreen>
+      <Home/>
   );
 }
