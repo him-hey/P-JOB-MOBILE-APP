@@ -56,32 +56,29 @@ export default class Home extends React.Component {
                     marginTop: 20,
                     fontSize: 15
                 }}>Most Popular</Text>
-
-
                 <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-
                     <View style={{
                         backgroundColor: "#FFF",
                         height: 200,
                         width: 150,
                         borderRadius: 20,
                         marginTop: 35
+                        
                     }}>
                         <Image source={require('../images/pentool.png')} style={{ width: 150, height: 150 }} />
                         <TouchableOpacity
 
                             onPress={() => this.props.navigation.navigate('Detail')}
-
                             style={{
-                                backgroundColor: "#000",
+                                backgroundColor: "#87ceeb",
                                 height: 60,
-                                borderRadius: 20,
+                                borderRadius: 5,
                                 marginTop: -10,
                                 paddingHorizontal: 8,
                                 paddingVertical: 8
                             }}>
                             <Text style={{
-                                color: "#FFF",
+                                color: "#000",
                                 fontFamily: "SemiBold",
                                 fontSize: 13,
                             }}>Software Developer</Text>
@@ -101,7 +98,7 @@ export default class Home extends React.Component {
                                 </View>
 
                                 <Text style={{
-                                    color: "#B0B0B0",
+                                    color: "#000",
                                     fontFamily: "Bold",
                                     fontSize: 13,
                                     marginLeft: 25
@@ -109,35 +106,36 @@ export default class Home extends React.Component {
                             </View>
                         </TouchableOpacity>
                     </View>
-
+                    
                     <View style={{
                         backgroundColor: "#FFF",
                         height: 200,
                         width: 150,
                         borderRadius: 20,
                         marginTop: 35,
-                        marginHorizontal: 30
+                        margin:10
                     }}>
-                        {/* <Image source={require('./src/images/accountant.png')} style={{width:150,height:150}}/> */}
-                        <View style={{
-                            backgroundColor: "#FFF",
-                            height: 60,
-                            borderRadius: 20,
-                            marginTop: -10,
-                            paddingHorizontal: 8,
-                            paddingVertical: 8
-                        }}>
+                        <Image source={require('../images/pentool.png')} style={{ width: 150, height: 150 }} />
+                        <TouchableOpacity
 
+                            onPress={() => this.props.navigation.navigate('Detail')}
+
+                            style={{
+                                backgroundColor: "#87ceeb",
+                                height: 60,
+                                borderRadius: 5,
+                                marginTop: -10,
+                                paddingHorizontal: 8,
+                                paddingVertical: 8
+                            }}>
                             <Text style={{
                                 color: "#000",
                                 fontFamily: "SemiBold",
                                 fontSize: 13,
-                            }}>Accountant</Text>
-
-
+                            }}>Software Developer</Text>
                             <View style={{ flexDirection: "row", marginTop: 4 }}>
                                 <View style={{
-                                    backgroundColor: "#DFDFDF",
+                                    backgroundColor: "#3E3C3C",
                                     paddingHorizontal: 5,
                                     alignItems: "center",
                                     justifyContent: "center",
@@ -149,44 +147,46 @@ export default class Home extends React.Component {
                                         fontSize: 13
                                     }}>Full time</Text>
                                 </View>
+
                                 <Text style={{
-                                    color: "#B0B0B0",
+                                    color: "#000",
                                     fontFamily: "Bold",
                                     fontSize: 13,
                                     marginLeft: 25
                                 }}>$50/h</Text>
                             </View>
-                        </View>
+                        </TouchableOpacity>
                     </View>
-
+                    
                     <View style={{
                         backgroundColor: "#FFF",
                         height: 200,
                         width: 150,
                         borderRadius: 20,
                         marginTop: 35,
-
+                        margin:5
                     }}>
-                        {/* <Image source={require('./src/images/driver.png')} style={{width:150,height:150}}/> */}
-                        <View style={{
-                            backgroundColor: "#FFF",
-                            height: 60,
-                            borderRadius: 20,
-                            marginTop: -10,
-                            paddingHorizontal: 8,
-                            paddingVertical: 8
-                        }}>
+                        <Image source={require('../images/pentool.png')} style={{ width: 150, height: 150 }} />
+                        <TouchableOpacity
 
+                            onPress={() => this.props.navigation.navigate('Detail')}
+
+                            style={{
+                                backgroundColor: "#87ceeb",
+                                height: 60,
+                                borderRadius: 5,
+                                marginTop: -10,
+                                paddingHorizontal: 8,
+                                paddingVertical: 8
+                            }}>
                             <Text style={{
                                 color: "#000",
                                 fontFamily: "SemiBold",
                                 fontSize: 13,
-                            }}>Car driver</Text>
-
-
+                            }}>Software Developer</Text>
                             <View style={{ flexDirection: "row", marginTop: 4 }}>
                                 <View style={{
-                                    backgroundColor: "#DFDFDF",
+                                    backgroundColor: "#3E3C3C",
                                     paddingHorizontal: 5,
                                     alignItems: "center",
                                     justifyContent: "center",
@@ -198,21 +198,73 @@ export default class Home extends React.Component {
                                         fontSize: 13
                                     }}>Full time</Text>
                                 </View>
+
                                 <Text style={{
-                                    color: "#B0B0B0",
+                                    color: "#000",
                                     fontFamily: "Bold",
                                     fontSize: 13,
                                     marginLeft: 25
                                 }}>$50/h</Text>
                             </View>
-                        </View>
+                        </TouchableOpacity>
+                    </View>
+                    
+                    <View style={{
+                        backgroundColor: "#FFF",
+                        height: 200,
+                        width: 150,
+                        borderRadius: 20,
+                        marginTop: 35
+                    }}>
+                        <Image source={require('../images/pentool.png')} style={{ width: 150, height: 150 }} />
+                        <TouchableOpacity
+
+                            onPress={() => this.props.navigation.navigate('Detail')}
+
+                            style={{
+                                backgroundColor: "#87ceeb",
+                                height: 60,
+                                borderRadius: 5,
+                                marginTop: -10,
+                                paddingHorizontal: 8,
+                                paddingVertical: 8
+                            }}>
+                            <Text style={{
+                                color: "#000",
+                                fontFamily: "SemiBold",
+                                fontSize: 13,
+                            }}>Software Developer</Text>
+                            <View style={{ flexDirection: "row", marginTop: 4 }}>
+                                <View style={{
+                                    backgroundColor: "#3E3C3C",
+                                    paddingHorizontal: 5,
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    borderRadius: 5
+                                }}>
+                                    <Text style={{
+                                        color: "#B0B0B0",
+                                        fontFamily: "Bold",
+                                        fontSize: 13
+                                    }}>Full time</Text>
+                                </View>
+
+                                <Text style={{
+                                    color: "#000",
+                                    fontFamily: "Bold",
+                                    fontSize: 13,
+                                    marginLeft: 25
+                                }}>$50/h</Text>
+                            </View>
+                        </TouchableOpacity>
                     </View>
                 </ScrollView>
+                {/*Add other job */}
                 <Text style={{
                     fontFamily: "ExtraBold",
                     marginVertical: 20,
                     fontSize: 15
-                }}>Nearby jobs</Text>
+                }}>Other Recamment</Text>
 
                 <View style={{
                     backgroundColor: "#FFF",
@@ -223,6 +275,7 @@ export default class Home extends React.Component {
                     alignItems: "center",
                     paddingHorizontal: 20
                 }}>
+                    
                     <View style={{
                         backgroundColor: "#DFDFDF",
                         borderRadius: 5,
@@ -233,6 +286,7 @@ export default class Home extends React.Component {
                     }}>
                         <Image source={require('../images/pentool.png')} style={{ width: 40, height: 40 }} />
                     </View>
+                    
                     <View style={{
                         paddingHorizontal: 20
                     }}>
@@ -241,16 +295,17 @@ export default class Home extends React.Component {
                             fontSize: 13
                         }}>Graphic Designer</Text>
                         <View style={{
-                            backgroundColor: "#DFDFDF",
+                            backgroundColor: "#87ceeb",
                             borderRadius: 5,
                             width: 70,
                             alignItems: "center",
                             marginVertical: 5
                         }}>
-                            <Text style={{ fontFamily: "Medium", color: "#000", opacity: 0.5 }}>Part time</Text>
+                           <TouchableOpacity onPress={() => this.props.navigation.navigate('Detail')}>
+                              <Text style={{ fontFamily: "Medium", color: "#000", opacity: 0.5 }}>Part time</Text>
+                           </TouchableOpacity> 
                         </View>
-
-
+                       
                     </View>
                     <Text style={{
                         fontFamily: "ExtraBold",
@@ -259,9 +314,7 @@ export default class Home extends React.Component {
                         marginTop: 10
                     }}>$5/h</Text>
                 </View>
-
-
-
+                {/*  */}
                 <View style={{
                     backgroundColor: "#FFF",
                     marginTop: 10,
@@ -271,6 +324,7 @@ export default class Home extends React.Component {
                     alignItems: "center",
                     paddingHorizontal: 20
                 }}>
+                    
                     <View style={{
                         backgroundColor: "#DFDFDF",
                         borderRadius: 5,
@@ -279,36 +333,37 @@ export default class Home extends React.Component {
                         alignItems: "center",
                         justifyContent: "center"
                     }}>
-                        {/* <Image source={require('./src/images/add.png')} style={{width:25,height:25}}/> */}
+                        <Image source={require('../images/pentool.png')} style={{ width: 40, height: 40 }} />
                     </View>
-
+                    
                     <View style={{
                         paddingHorizontal: 20
                     }}>
                         <Text style={{
                             fontFamily: "ExtraBold",
                             fontSize: 13
-                        }}>Nurse</Text>
+                        }}>Graphic Designer</Text>
                         <View style={{
-                            backgroundColor: "#DFDFDF",
+                            backgroundColor: "#87ceeb",
                             borderRadius: 5,
                             width: 70,
                             alignItems: "center",
                             marginVertical: 5
                         }}>
-                            <Text style={{ fontFamily: "Medium", color: "#000", opacity: 0.5 }}>Part time</Text>
+                           <TouchableOpacity onPress={() => this.props.navigation.navigate('Detail')}>
+                              <Text style={{ fontFamily: "Medium", color: "#000", opacity: 0.5 }}>Part time</Text>
+                           </TouchableOpacity> 
                         </View>
-
-
+                       
                     </View>
                     <Text style={{
                         fontFamily: "ExtraBold",
                         fontSize: 18,
-                        marginLeft: 90,
+                        marginLeft: 40,
                         marginTop: 10
                     }}>$5/h</Text>
                 </View>
-
+                {/*  */}
                 <View style={{
                     backgroundColor: "#FFF",
                     marginTop: 10,
@@ -318,6 +373,7 @@ export default class Home extends React.Component {
                     alignItems: "center",
                     paddingHorizontal: 20
                 }}>
+                    
                     <View style={{
                         backgroundColor: "#DFDFDF",
                         borderRadius: 5,
@@ -326,80 +382,33 @@ export default class Home extends React.Component {
                         alignItems: "center",
                         justifyContent: "center"
                     }}>
-                        {/* <Image source={require('./src/images/dine.png')} style={{width:20,height:20}}/> */}
+                        <Image source={require('../images/pentool.png')} style={{ width: 40, height: 40 }} />
                     </View>
-
+                    
                     <View style={{
                         paddingHorizontal: 20
                     }}>
                         <Text style={{
                             fontFamily: "ExtraBold",
                             fontSize: 13
-                        }}>Sheff</Text>
+                        }}>Graphic Designer</Text>
                         <View style={{
-                            backgroundColor: "#DFDFDF",
+                            backgroundColor: "#87ceeb",
                             borderRadius: 5,
                             width: 70,
                             alignItems: "center",
                             marginVertical: 5
                         }}>
-                            <Text style={{ fontFamily: "Medium", color: "#000", opacity: 0.5 }}>Part time</Text>
+                           <TouchableOpacity onPress={() => this.props.navigation.navigate('Detail')}>
+                              <Text style={{ fontFamily: "Medium", color: "#000", opacity: 0.5 }}>Part time</Text>
+                           </TouchableOpacity> 
                         </View>
-
-
+                       
                     </View>
                     <Text style={{
                         fontFamily: "ExtraBold",
                         fontSize: 18,
-                        marginLeft: 90,
-                        marginTop: 10
-                    }}>$5/h</Text>
-                </View>
-
-
-                <View style={{
-                    backgroundColor: "#FFF",
-                    marginTop: 10,
-                    flexDirection: "row",
-                    borderRadius: 10,
-                    height: 60,
-                    alignItems: "center",
-                    paddingHorizontal: 20
-                }}>
-                    <View style={{
-                        backgroundColor: "#DFDFDF",
-                        borderRadius: 5,
-                        height: 40,
-                        width: 40,
-                        alignItems: "center",
-                        justifyContent: "center"
-                    }}>
-                        {/* <Image source={require('./src/images/sitter.png')} style={{width:30,height:30}}/> */}
-                    </View>
-
-                    <View style={{
-                        paddingHorizontal: 20
-                    }}>
-                        <Text style={{
-                            fontFamily: "ExtraBold",
-                            fontSize: 13
-                        }}>Baby Sitter</Text>
-                        <View style={{
-                            backgroundColor: "#DFDFDF",
-                            borderRadius: 5,
-                            width: 70,
-                            alignItems: "center",
-                            marginVertical: 5
-                        }}>
-                            <Text style={{ fontFamily: "Medium", color: "#000", opacity: 0.5 }}>Part time</Text>
-                        </View>
-
-
-                    </View>
-                    <Text style={{
-                        fontFamily: "ExtraBold",
-                        fontSize: 18,
-                        marginLeft: 85,
+                        marginLeft: 40,
                         marginTop: 10
                     }}>$5/h</Text>
                 </View>
