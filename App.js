@@ -1,9 +1,10 @@
 import Home from './src/screens/homeView'
+import { StyleSheet, Text, View } from 'react-native';
 import AppNavigator from './src/navigations/Navigator'
 
+
 export default function App() {
-    return (
-     <AppNavigator/>
-      
-    );
+  return (
+      <AppNavigator/>
+  );
 }
