@@ -38,7 +38,6 @@ export default class Home extends React.Component {
                         }}
                     />
                     <View style={{
-                        backgroundColor: "#000000",
                         width: 30,
                         height: 30,
                         borderRadius: 8,
@@ -46,7 +45,7 @@ export default class Home extends React.Component {
                         alignItems: "center",
                         justifyContent: "center"
                     }}>
-                        {/* <Image source={require('./src/images/search.png')}/> */}
+                        <Image source={require('../images/search.png')}/>
 
                     </View>
 
